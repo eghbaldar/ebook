@@ -1,0 +1,97 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+<%@ Register Src="~/UserControl/Footer.ascx" TagName="Footer" TagPrefix="uc2" %>
+<%@ Register Src="~/UserControl/MenuTop.ascx" TagName="MenuTop" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../../content/menu/Hoz/drop.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="دانلود کتاب رایگان شهر کتاب کتابخانه شهر کتاب داستان صوتی فارسی موبایل رمان شهر کتاب رمان عاشقانه کتاب عاشقانه انجمن" />
+    <meta name="keywords" content=" پی دی اف , دانلود رایگان , PDF , pdf , download , ebook , Ebook , Elearning , مقالات پژوهشی , دانلود کتاب , کتاب , دانلود , رمان , شهر کتاب ,برنامه نویسی ,کتاب و شهر, ادبیات , کامپیوتر , صوتی , کتاب موبایل , شعر , م.مودب پور , صادق هدایت , دانلود کتاب رایگان , کتاب الکترونیکی , کتاب گویا , رمان موبایل , کتابخانه , رمان , داستان , کتابخانه الکترونیکی , کتاب صوتی , دانلود رایگان کتاب , رمان ایرانی , رمان خارجی , داستان کوتاه , مجموعه داستان , برنامه نویسی , اینترنت , نرم افزار , موبایل , مذهبی , علوم غریبه , روانشناسی , پرشکی ,باستان شناسی ,فلسفه ,مدیریت ,اقتصاد ,سیاست ,نمایشنامه, فیلمنامه ,زندگینامه , شهری از کتاب ها , تاریخ , کتاب شریعتی , گابریل گارسیا مارکز , جلال آل احمد , جزوه , دانلود تحقیق , دانلود مقاله , کتابخانه الکترونیکی , کتاب الکترونی , کتاب دیجیتال , دانلود کتاب فارسی , دانلود کتاب کامپیوتر , دانلود جزوه درسی , کتابخانه گویا" />
+    <meta name="google-site-verification" content="2ibIt8UcAxJ_zakKZTMe2S1DXx5bYTmkXbmKD3F-MVY" />
+    <meta name="copyright" content="2013 , 2014" />
+    <meta content="Rasht" name="city" />
+    <meta content="Iran" name="country" />
+    <!-- Start of StatCounter Code for Default Guide -->
+    <script type="text/javascript">
+        var sc_project = 9365453;
+        var sc_invisible = 1;
+        var sc_security = "507e8795";
+        var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" +
+scJsHost +
+"statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript>
+        <div class="statcounter">
+            <a title="website
+statistics" href="http://statcounter.com/" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/9365453/0/507e8795/1/" alt="website statistics"></a></div>
+    </noscript>
+    <!-- End of StatCounter Code for Default Guide -->
+    <style type="text/css">
+        @font-face
+        {
+            font-family: 'koodakEbookbook';
+            src: url(      '../../content/font/W_koodak.eot' );
+            src: url(      '../../content/font/W_koodak.eot?#iefix' ) format(      'embedded-opentype' ), url('../../content/font/W_koodak.woff' ) format(      'woff' ), url('../../content/font/W_koodak.TTF' ) format(      'truetype' );
+        }
+    </style>
+    <!-- Start Menu -->
+    <link href="../../content/menu/style.css" rel="stylesheet" type="text/css" />
+    <!-- End Menu -->
+    <link href="../../content/css/CssEbook.css" rel="stylesheet" type="text/css" />
+    <!-- Mega -->
+    <link rel="SHORTCUT ICON" href="../../content/images/bookIco.png">
+    <meta name="KEYWORDS" content="دانلود , کتاب , رمان , برنامه نویسی , ادبیات , کامپیوتر , صوتی , موبایل , شعر , م.مودب پور , صادق هدایت , نویسنده , ر.اعتمادی , دانلود کتاب , کتاب , کتابخانه , دانلود کتاب , دانلود , کتابخانه الکترونیکی , کتاب صوتی , کتاب موبایل , کتاب کامپیوتر , دانلود کتاب رایگان , دانلود رایگان کتاب , کتابخانه موبایل , کامپیوتر , دانلود رمان , روانشناسی , رمان رایگان , رمان فارسی , دانلود رمان ایرانی , کتاب شعر , کتاب الکترونیکی , رمان موبایل , سیاسی , دکتر شریعتی , کتاب شریعتی , صادق هدایت , احمد کسروی , عبدالله شهبازی , دکتر سروش , آموزش کامپیوتر , اموزش, کتاب آموزشی , کتابخانه صوتی , کتاب درسی , کتاب دانشگاهی , دانلود جزوه دانشگاه , جزوه رایگان , مهندسی برق , مهندسی مکانیک , مهندسی عمران , ریاضی , فیزیک , احسان طبری , فلسفه , جلال آل احمد , فیلمنامه , مودب پور , رمان مودب پور , حقوقی , کتاب رشته حقوق , تاریخ , تاریخ باستان , ایران باستان , موبایل , داستان موبایل , رمان موبایل , دانلود کتاب موبایل , رمان برای موبایل , دین , کتاب اسلامی , شعر , شعر نو , کتاب قصیده , آلبوم شعر , دین زرتشتی , خانه داری , کتاب کودکان , قصه کودکان , ورزشی , دانلود کتاب رایگان , کتابخانه شهر دات کام , کتابخانه الکترونیکی , سایت کتاب , دانلود کتاب , دانلود کتاب رایگان , دانلود کتاب الکترونیکی , کتاب صوتی , موبایل , کتابخانه , رمان , آشپزی , کتابهای صوتی , آموزش و پرورش , کتابهای صوتی , اشعار و ادبیات , دیوان اشعار , , شعر کودکان , کتابهای صوتی , اقتصادی , کتابهای صوتی , برنامه ریزی و مدیریت , تاریخی , کتابهای صوتی , جغرافیایی , آشنایی با کشورها , حقوقی , خانواده , راه و رسم زندگی , دفاع مقدس , رمان و داستان , داستان , داستان زبان اصلی , رمان , رمان زبان اصلی , سفرنامه , کتابهای صوتی , روانشناسی , روانکاوی , کتابهای صوتی , ریاضیات و حسابداری , زبان خارجه , فرانسوی , ژاپنی , زندگینامه , کتابهای صوتی , سیاسی , کتابهای صوتی , شیمی و پترو شیمی , شیمی , پترو شیمی , ضمیمه کلیک جام جم , طنز و سرگرمی , علمی و هنری , کتابهای صوتی , علوم غریبه , متافیزیک , عمومی و متفرقه , پیامک , فرهنگی و اجتماعی , فلسفی , فیزیک , کتابهای صوتی , مجلات و نشریات, شهر کتاب ، دانلود کتاب الکترونیکی ، کتاب ، دانلود ، فقط دانلود ، حجم کم ، تنوع کتاب ها ، فنی مهندسی ، علوم غریبه ، سیاست ، سیاسی ، آموزشی ، زبان ، تاریخ ، آشپزی ، اقتصادی ، مدیریتی ، کتب ، پی دی اف ،  PDF , Download PDF , dl PDF , Ebook , کتاب های کم حجم  , PC Magazine , PC World , Photoshop Creative , ایران شماتیک ,  SHOT ,   محیط زیست , مذهبی , ادیان دیگر , تفسیر نمونه , زرتشت , صوتی تصویری , کتابهای صوتی , کشورهای اسلامی , مهندسی الکترونیک , مهندسی برق , مهندسی رباتیک , مهندسی عمران , مهندسی معماری , مهندسی مکانیک , خودرو , دانشگاهی , مهندسی کشاورزی , موبایل , برنامه نویسی موبایل , دفترچه راهنمای گوشی , نجوم و اخترشناسی , نقد و بررسی , نمایشنامه و فیلم نامه , ورزشی , پزشکی , کتابهای صوتی , کامپیوتر و اینترنت , آموزش اینترنت , آموزش صوتی تصویری , آموزش نرم افزار , آموزش کامپیوتر , برنامه نویسی , برنامه نویسی وب , تجارت الکترونیک , ترفند , دانشگاهی , سخت افزاری , شبکه , طراحی و گرافیک , هک و امنیت اطلاعات , وب مستر , کتاب الکترونیکی موبایل , آموزش و پرورش , اشعار و ادبیات , تاریخی , تجارت الکترونیک , ترفند , تفسیر نمونه , خانواده , راه و رسم زندگی , راهنمای گوشی موبایل , رمان و داستان , روانشناسی , زندگینامه , سیاسی , علمی , علوم غریبه , عمومی و متفرقه , عکاسی , فلسفی , مذهبی , نقد و بررسی , پزشکی , پند و اندرز , پیامک">
+    <meta name="Description" content="شهر کتاب" />
+    <meta name="author" content="ROBOTIC" />
+    <meta name="copyright" content="2008, 2009, 2010, 2011 2012 2013 Dehkade Majazi Caspian" />
+    <meta content="Rasht" name="city" />
+    <meta content="Iran" name="country" />
+    <!-- End Mega -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="body">
+        <form id="form1" runat="server">
+        <div id="header">
+            <table style="width: 100%; border: 0; padding: 0;">
+                <tr>
+                    <td>
+                        <img src='<%= ResolveUrl("../../content/images/logo.png") %>' />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <div style="float: right; padding-right: 240px;">
+                                <asp:TextBox ID="textbox1" Text="جستجو..." onfocus="if(this.value=='جستجو...'){this.value='';}"
+                                    ForeColor="#999999" onblur="if(this.value==''){this.value='جستجو...';}if(this.value=='جستجو...')this.style.color='#999999';"
+                                    onmousedown="this.style.color='#000000';" onkeydown="if(event.keyCode==13){return InsertComment(this.value);}"
+                                    CssClass="search" runat="server" />
+                            </div>
+                            <div style="float: right;">
+                                <asp:ImageButton ImageUrl="~/content/images/search.png" ID="btnSearch" runat="server" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="center">
+            <div>
+                <uc1:MenuTop ID="MenuTop1" runat="server" />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer">
+            <uc2:Footer ID="Footer1" runat="server" />
+        </div>
+        </form>
+    </div>
+</body>
+</html>

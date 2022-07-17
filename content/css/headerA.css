@@ -1,0 +1,13 @@
+﻿        /* Center the website */
+        #wrapper
+        {
+            width: 920px;
+            margin: 0 auto;
+        }
+        
+        #headerA
+        {
+            height: 220px;
+            background: url(../../background.png) repeat-y scroll left top;
+            text-align: center;
+        }

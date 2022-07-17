@@ -1,0 +1,70 @@
+﻿@font-face
+{
+    font-family: koodakEbook;
+    src: url("../font/W_koodak.TTF" );
+}
+/* Shaahr.com | Developer: Alimohammad Eghbbalar | Analyzor: Amir Hossein Kargar */
+body, div, p, h1, h2, h3, h4, ul, li, table {
+	margin:0;
+	padding:0;
+	border:none;
+}
+body {
+direction:rtl;
+padding:0px;
+background-image:url('../images/bgHeader.jpg');
+background-repeat:repeat-x;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:11px;
+}
+#body {
+margin: 0px auto 0px auto;
+width:964px;
+}
+#header
+{
+width:964px;
+height:222px;
+float:right;
+text-align:center;
+}
+#center
+{
+width:964px;float:right;
+border:1px solid #ccc;
+-webkit-box-shadow: -17px 48px 90px 24px rgba(207,207,207,1);
+-moz-box-shadow: -17px 48px 90px 24px rgba(207,207,207,1);
+box-shadow: -17px 48px 90px 24px rgba(207,207,207,1);
+}
+#footer
+{
+	float:right;
+width:964px;
+height:100px;
+background: #f2f6f8; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZjJmNmY4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZDhlMWU3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjYjVjNmQwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UwZWZmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(-45deg, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* IE10+ */
+background: linear-gradient(135deg, #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+-moz-border-radius:  0px 0px 10px 10px;	-webkit-border-radius: 0px 0px 10px 10px;	 border-radius: 0px 0px 10px 10px;
+border-right:1px solid #ccc;
+border-left:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+.search
+{
+background-color:White;
+width:400px;
+height:45px;
+-moz-border-radius: 0px 5px 5px 0px;	-webkit-border-radius:  0px 5px 5px 0px;	 border-radius: 0px 5px 5px 0px;
+box-shadow:2px 2px 12px #88D9FA;
+border:0;
+font-family:koodakEbook;
+font-size:25px;
+padding:7px;
+}
